@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+.menu_web{
+    width: 100%;
+    height: 45px;
+    background-color: #00FFFF	;
+    margin: 0 auto;
+    font-size: 20px;
+}
+.submenu{
+    color: rgb(236, 7, 34);
+    background-color: #f5a512;
+    width: 180px;
+    min-height: 90px;
+    position:absolute;
+    display: none;
+}
+.menu li {
+    display: inline-block; 
+    margin: 0 15px; 
+}
+.menu a {
+    text-decoration: none; 
+    padding: 10px 20px; 
+    color: #333; 
+}
+.menu a:hover {
+    background-color: #ddd; 
+    border-radius: 4px; }
+.root li {
+    list-style: none;
+    float: left;
+    position: relative;
+    display: block;
+    font-weight: bold;
+}
+.root li a{
+    text-decoration: none;
+    color: black;
+    padding: 0 10px 0 15px;
+    line-height: 50px;
+    display: block;
+}
+.root li a:hover{
+    background-color: rgb(246, 230, 7);
+    color: orange;
+    transform:200px ;
+}
+.submenu{
+    color: rgb(236, 7, 34);
+    background-color: #f5a512;
+    width: 180px;
+    min-height: 90px;
+    position:absolute;
+    display: none;
+
+}
+.submenu li {
+    list-style: none;
+}
+
+.submenu li a {
+    line-height: 40px;
+    font-size: 15px;
+}
+.submenu li a :hover{
+    text-decoration: none;
+    text-transform: none;
+    color: rgb(18, 23, 23);
+    display: block;
+    border:  1px solid #f5a512;
+    text-indent: 10px;
+    line-height: 40px;
+}
+.root>li:hover .submenu {
+    background-color:gray;
+    color: #902424;
+    transition: ease-in 0.30;
+    display: block;
+}
+.submenu li a:hover {
+    background-color:gray;
+    color:rgb(20, 19, 19);
+    transition: ease-in 0.40;
+}
+.banner {
+    display: 90;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: #00FFFF;
+    color: #fff;
+    
+}
+
+.banner-content h2 {
+    font-size: 24px;
+}
+
+.banner-content button {
+    padding: 10px 20px;
+    background-color:#00FFFF ;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+   /* Định dạng cho ô góp ý */
+   .feedback-box {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+
+  .feedback-box h3 {
+    text-align: center;
+    color: #333;
+  }
+
+  .feedback-box textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+    font-size: 16px;
+  }
+
+  .feedback-box button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #af4c6d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+
+  .feedback-box button:hover {
+    background-color: #45a049;
+  }
+  .anhcn{
+    color: red;
+  }
+  .gopy{
+    color: blue;
+  }​15:17/-strong/-heart:>:o:-((:-h Xem trước khi gửiThả Files vào đây để xem lại trước khi gửi
